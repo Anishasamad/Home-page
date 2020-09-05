@@ -1,0 +1,137 @@
+*{
+    margin:auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: #d18ebb !important; 
+}
+span{
+    font-size: 40px;
+    color:#4D0535;
+}
+h2{
+    font-size: 25px !important;
+}
+.nav-link{
+    font-weight: bold;
+    color: black !important;
+}
+.nav-link:hover{
+    border: 2px solid  !important;
+    border-radius: 10px !important;
+    background-color: #4D0535 !important ;
+    color: #F5FAB3 !important ;
+}
+#navbarNav{
+    margin-left: 77px !important;
+}
+
+.btn-danger {
+    color: #4D0535 !important;
+    background-color:#b55595 !important ;
+    border: #b55595 !important;
+}
+.btn-danger:hover {
+    color: #fff;
+    border: #b55595 !important;
+    transition: 3s;
+}
+.btn-group{
+    height: 15px;
+}
+.list
+{
+    background-color:  #b55595 !important;
+}
+.btn-group .btn-danger 
+{
+    width: 28%;
+}
+.categories{
+    display: flex;
+}
+.new-arrivals
+{
+    display: flex;
+}
+
+.carousel-item
+{
+    margin-top: 20px;
+}
+.carousel-item img{
+    width: 80% !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: grey !important;
+}
+
+.container
+{
+    position: relative;
+    text-align: center;
+}
+.center
+{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.card-items
+{
+    background-color: lavender !important;
+
+}
+.card
+{
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+}
+.card img
+{
+    height: 200px !important;
+}
+.card .card-text{
+    background-color: rgb(187, 184, 184) !important;
+}
+.cities
+{
+    position: relative;
+    text-align: center;
+    color: #ff9c31;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.cities img{
+    width: 900px;
+}
+.city-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .About-us {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin-top: 20px;
+
+  }
+  
+  .About-us .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .page-footer{
+      background-color:#1b0714 !important ;
+      color:#F5FAB3 !important ;
+      margin-top: 20px;
+  }
+  
